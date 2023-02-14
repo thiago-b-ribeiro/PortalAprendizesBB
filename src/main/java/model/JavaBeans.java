@@ -2,64 +2,74 @@ package model;
 
 public class JavaBeans {
 
-	private String matriculaAprendiz;
-	private String nomeAprendiz;
-	private String emailAprendiz;
-	private long telefoneAprendiz;
-	private String generoAprendiz;
+	private String matricula;
+	private String nome;
+	private String email;
+	private long telefone;
+	private String genero;
+	private byte categoria;
 	
 	public JavaBeans() {
 		super();
 		
 	}
 
-	public JavaBeans(String matriculaAprendiz, String nomeAprendiz, String emailAprendiz, long telefoneAprendiz, String generoAprendiz) {
+	public JavaBeans(String matricula, String nome, String email, long telefone, String genero, byte categoria) {
 		super();
-		this.matriculaAprendiz = matriculaAprendiz;
-		this.nomeAprendiz = nomeAprendiz;
-		this.emailAprendiz = emailAprendiz;
-		this.telefoneAprendiz = telefoneAprendiz;
-		this.generoAprendiz = generoAprendiz;
+		this.matricula = matricula;
+		this.nome = nome;
+		this.email = email;
+		this.telefone = telefone;
+		this.genero = genero;
+		this.categoria = categoria;
 	}
 
-	public String getMatriculaAprendiz() {
-		return matriculaAprendiz;
+	public String getMatricula() {
+		return matricula;
 	}
 
-	public void setMatriculaAprendiz(String matriculaAprendiz) {
-		this.matriculaAprendiz = matriculaAprendiz;
+	public void setMatricula(String matricula) {
+		this.matricula = matricula;
 	}
 
-	public String getNomeAprendiz() {
-		return nomeAprendiz;
+	public String getNome() {
+		return nome;
 	}
 
-	public void setNomeAprendiz(String nomeAprendiz) {
-		this.nomeAprendiz = nomeAprendiz;
+	public void setNome(String nome) {
+		this.nome = nome;
 	}
 
-	public String getEmailAprendiz() {
-		return emailAprendiz;
+	public String getEmail() {
+		return email;
 	}
 
-	public void setEmailAprendiz(String emailAprendiz) {
-		this.emailAprendiz = emailAprendiz;
+	public void setEmail(String email) {
+		this.email = email;
 	}
 
-	public long getTelefoneAprendiz() {
-		return telefoneAprendiz;
+	public long getTelefone() {
+		return telefone;
 	}
 
-	public void setTelefoneAprendiz(long telefoneAprendiz) {
-		this.telefoneAprendiz = telefoneAprendiz;
+	public void setTelefone(long telefone) {
+		this.telefone = telefone;
 	}
 
-	public String getGeneroAprendiz() {
-		return generoAprendiz;
+	public String getGenero() {
+		return genero;
 	}
 
-	public void setGeneroAprendiz(String generoAprendiz) {
-		this.generoAprendiz = generoAprendiz;
+	public void setGenero(String genero) {
+		this.genero = genero;
 	}
-		
+
+	public byte getCategoria() {
+		return categoria;
+	}
+
+	public void setCategoria(byte categoria) {
+		this.categoria = categoria;
+	}
+	
 }

@@ -8,27 +8,27 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import model.DAO;
 
-/**
- * Servlet implementation class Controller
- */
 @WebServlet(urlPatterns = {"/Controller", "/main"})
 public class Controller extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-    DAO dao = new DAO();
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
+
+	DAO dao = new DAO();
+	
     public Controller() {
-        super();
-        
+        super();        
     }
 
-	/**
-	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
-	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		response.getWriter().append("Served at: ").append(request.getContextPath());
-		dao.testeConexao();
+		
+		String action = request.getServletPath();
+		
+		if (action.equals("/main")){
+			listarUsuarios(request, response);
+		}
+	}
+	
+	protected void listarUsuarios(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		response.sendRedirect("usuarios.jsp");
 	}
 
 }

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Portal Aprendizes BB - Novo Usuário</title>
+		
+		<link rel="icon" href="images/iconBB.png">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	
+	<body>
+	
+		<form name="frmNovoUsuario" action="">
+		
+			<table>
+			
+				<tr>
+					<td><input type="text" name="matricula" placeholder="Matrícula" class="caixaDeTexto01"></td>
+				</tr>
+				<tr>
+					<td><input type="text" name="nome" placeholder="Nome Completo" class="caixaDeTexto01"></td>
+				</tr>
+				<tr>
+					<td><input type="text" name="email" placeholder="E-mail" class="caixaDeTexto01"></td>
+				</tr>
+				<tr>
+					<td><input type="text" name="telefone" placeholder="Telefone" class="caixaDeTexto02"></td>
+				</tr>
+				<tr>
+					<td><input type="text" name="genero" placeholder="Gênero" class="caixaDeTexto01"></td>
+				</tr>
+				<tr>
+					<td><input type="text" name="categoria" placeholder="Categoria" class="caixaDeTexto01"></td>
+				</tr>
+				
+			</table>
+			
+			<input type="button" value="Adicionar" class="botao01" onclick="validar()">
+			
+		</form>
+		<script src="scripts/validador.js"></script>
+		
+	</body>
+	
+</html>

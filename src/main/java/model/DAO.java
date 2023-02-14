@@ -21,7 +21,7 @@ public class DAO {
 		}
 	}
 	
-	public void testeConexao() {
+	public void testeConectar() {
 		try {
 			Connection con = conectar();	
 			System.out.println(con);
