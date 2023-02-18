@@ -23,6 +23,18 @@ h1 {
     cursor: pointer;
 }
 
+.botao02 {
+	text-decoration: none;
+	background-color: #e01b24;
+	padding: 5px 10px 5px 10px;
+	color: #fff;
+    font-size: 1.2em;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
+
 .caixaDeTexto01 {
 	width: 320px;
 	padding: 5px;
@@ -37,3 +49,30 @@ h1 {
 	border: 1px solid #66bbff;
 	border-radius: 5px;
 }
+
+#tabela01 {
+	margin-top: 30px;
+	border-collapse: collapse;
+}
+
+#tabela01 th {
+	border: 1px solid #ddd;	
+	padding: 10px;
+	text-align: left;
+	background-color: #66bbff;
+	color: #fff;
+}
+
+#tabela01 td {
+	border: 1px solid #ddd;	
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+

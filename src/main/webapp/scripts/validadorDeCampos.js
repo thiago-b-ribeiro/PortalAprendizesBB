@@ -3,7 +3,7 @@
  * @author Thiago Barbosa Ribeiro
  */
 
- function validar(){
+ function validarCamposPreenchidos(){
 	 let matricula = frmNovoUsuario.matricula.value
 	 let nome = frmNovoUsuario.nome.value
 	 let email = frmNovoUsuario.email.value
