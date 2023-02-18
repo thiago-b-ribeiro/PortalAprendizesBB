@@ -54,6 +54,7 @@
 		<br>
 		
 		<a href="novoUsuario.html" class="botao01">Novo Usuário</a>
+		<a href="gerarRelatorioDeUsuarios" class="botao01">Gerar relatório</a>
 		
 		<script src="scripts/confirmadorDeExclusao.js"></script>
 		
